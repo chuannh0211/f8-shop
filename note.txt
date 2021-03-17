@@ -1,0 +1,36 @@
+1. Làm quen với css
+    - Các cách sử dụng css trong html:
+    + Internal (nội bộ): đặt trong thẻ style, có thể đặt ở mọi nơi trong file html
+    + External (ngoại tuyến): sử dụng file từ bên ngoài link vào file html
+    + Inline(nội tuyến): dùng thuộc tính style bên trong thẻ khác
+2. CSS selector
+Selector	Ví dụ	Mô tả
+.class	| .intro	| Chọn tất cả các thẻ có class=“intro”
+.class1.class2	| .name1.name2	| Chọn tất cả các thẻ có cả name1 và name2 được đặt trong thuộc tính class của nó
+.class1 .class2	| .name1 .name2	| Chọn tất cả các thẻ có class=“name2” là con của một phần tử có class=“name1”
+*	| *	| Chọn tất cả các thẻ
+element	| h2	| Chọn tất cả các thẻ h2
+element.class	| div.box	| Chọn tất cả thẻ div có class=“box”
+element, element	| div, h2	| Chọn tất cả thẻ div và h2
+element element	| div p	| Chọn tất cả thẻ p trong thẻ div
+element > element	| div > p	| Chọn tất cả thẻ p là con trực tiếp của thẻ div
+element + element	| div + p	| Chọn thẻ p đứng liền kề sau thẻ div
+element ~ element	| div ~ p	| Chọn tất cả thẻ p đứng sau thẻ div
+3. Độ ưu tiên trong css
+    - Internal và External có cùng mức độ ưu tiên (cái nào viết trc thì sẽ đc load trước)
+    - tag(tên element) < .class < #id < Inline
+4. Đặt biến trong CSS
+    - Sử dụng trong trường hợp có nhiều element có dùng chung 1 thuộc tính nào đó
+    EX: 
+    :root{
+        --text-color: violet;
+    }
+    h1{
+        color: var(--text-color);
+    }
+    h2{
+        color: var(--text-color);
+    }
+    h3{
+        color: var(--text-color);
+    }
