@@ -3,11 +3,6 @@
     padding: 0;
 }
 
-.box{
-    background-color: aqua;
-    width: 100px;
-    height: 100px;
-    padding: 10px 10px;
-    margin: 10px;
-    box-sizing: border-box;
+.container .box{
+    color: blue;
 }
