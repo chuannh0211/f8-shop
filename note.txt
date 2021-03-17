@@ -40,3 +40,16 @@ element ~ element	| div ~ p	| Chọn tất cả thẻ p đứng sau thẻ div
     - :active: click chuột vào phần tử
     - :first-child: lấy phần tử con đầu tiền
     - :last-child: lấy phần tử con cuối cùng
+6. CSS pseudo-element
+7. Padding (đệm)
+    -> note: thêm thuộc tính padding có thể làm tăng kích thước của element
+8. Border (viền)
+    - border-witdh: độ rộng của border
+    - border-style: kiểu border
+    - border-color: màu border
+    - shorthand: border: độ rộng | kiểu border | màu sắc  
+    -> note: thêm thuộc tính border có thể làm tăng kích thước của element
+9. Margin (khoảng lề)
+10. Box-sizing: 
+    - tự động tính toán chiều ngang element = tổng kích thước của border + padding + content ( trừ trường hợp đặt padding or border or margin 
+    quá lớn so với element thì k giữ nguyên được)
