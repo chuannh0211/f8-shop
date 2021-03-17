@@ -34,3 +34,9 @@ element ~ element	| div ~ p	| Chọn tất cả thẻ p đứng sau thẻ div
     h3{
         color: var(--text-color);
     }
+5. CSS pseudo-classes(Lớp giả)
+    - :root
+    - :hover: di chuột vào phần tử 
+    - :active: click chuột vào phần tử
+    - :first-child: lấy phần tử con đầu tiền
+    - :last-child: lấy phần tử con cuối cùng
