@@ -41,6 +41,7 @@ element ~ element	| div ~ p	| Chọn tất cả thẻ p đứng sau thẻ div
     - :first-child: lấy phần tử con đầu tiền
     - :last-child: lấy phần tử con cuối cùng
 6. CSS pseudo-element
+    - tạo ra 1 element mà k cần viết mã html mà chỉ cần viết css
 7. Padding (đệm)
     -> note: thêm thuộc tính padding có thể làm tăng kích thước của element
 8. Border (viền)
@@ -53,3 +54,22 @@ element ~ element	| div ~ p	| Chọn tất cả thẻ p đứng sau thẻ div
 10. Box-sizing: 
     - tự động tính toán chiều ngang element = tổng kích thước của border + padding + content ( trừ trường hợp đặt padding or border or margin 
     quá lớn so với element thì k giữ nguyên được)
+11. Background-image:
+    - linear-gradient(hướng xoay, mã màu, mã màu): màu chuyển
+    - màu chuyển trong suốt -> linear-gradient(hướng xoay, rgba(), rgba());
+12. CSS Position: Relative (vị trí tương đối)
+    - Không phụ thuộc vào đối tượng nào khác, mà lấy chính bản thân nó làm gốc tọa độ và chỉ phụ thuộc vào chính nó
+    - attribute: top, left, right, bottom
+13. CSS Position: Absolute (vị trí tuyệt đối)
+    - Sử dụng khi element cần set thuộc tính position phụ thuộc vào 1 element khác 
+    - phụ thuộc vào thẻ cha gần nhất có thuộc tính position -> lấy thẻ cha đó làm gốc tọa độ
+14. CSS Position Fix
+    - Sử dụng khi element cần set thuộc tính position phụ thuộc vào trình duyệt
+15. Những thành phần thường gặp trên giao diện web
+    - Header
+    - Navigation (điều hướng)
+    - Breadcrum 
+    - Sidebar
+    - Slider
+    - Content
+    - Footer
